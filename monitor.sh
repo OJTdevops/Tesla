@@ -1,6 +1,9 @@
-echo "Use ansible script to monitor ec2 instance"
+echo "Using bash"
 df -h
-free -m
+date
 echo "Welcome to TD Bank"
-echo "My name is $name"
-echo "You are welcome $name"
+echo "What is your username"
+read $username
+echo "What is your password"
+read -s $password
+echo "Congrat, you can now continue"
